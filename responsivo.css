@@ -1,0 +1,62 @@
+@media screen and (max-width: 380px){
+    #content{
+        max-width: 330px;
+        height: 100px;
+    }
+
+    p#pDay{
+        margin-left: 20px;
+    }
+
+    #txtDay, #txtMonth, #txtYear{
+        max-width: 30px;
+    }
+
+    input[type=number]::-webkit-inner-spin-button{ /*para tirar as flecnhinhas do lado dos inputs de number */
+        -webkit-appearance: none;
+    }
+
+    .inputsStyle input#txtDay{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-bottom: 65px;
+    }
+
+    .inputsStyle input#txtMonth{
+        font-size: 14px;
+    }
+
+    .inputsStyle input#txtYear{
+        font-size: 14px;
+    }
+    
+    #txtDay::-webkit-input-placeholder{
+        font-size: 11px;
+    }
+
+    #txtMonth::-webkit-input-placeholder{
+        font-size: 11px;
+    }
+
+    #txtYear::-webkit-input-placeholder{
+        font-size: 11px;
+    }
+
+    #submit{
+        margin-bottom: 30px;
+    }
+
+    hr{
+        max-width: 250px;
+    }
+
+    img{
+        position: relative;
+        left: -415px;
+        max-width: 35px;
+    }
+
+    .res p{
+        font-size: 45px;
+    }
+}

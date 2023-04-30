@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="responsivo.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Idade</title>
+</head>
+<body>
+  <section id="content">
+    <div id="inputs">
+      <div class="inputsStyle">
+        <p id="pDay">Day</p>
+        <p><input type="number" name="txtDay" id="txtDay" placeholder="DD" onclick="campos()"></p>
+        <p id="erro1">This field is required</p>
+      </div>
+      <div class="inputsStyle">
+        <p id="pMonth">Month</p>
+        <p><input type="number" name="txtMonth" id="txtMonth" placeholder="MM" onclick="campos()"></p>
+        <p id="erro2">This field is required</p>
+      </div>
+      <div class="inputsStyle">
+        <p id="pYear">Year</p>
+        <p><input type="number" name="txtYear" id="txtYear" placeholder="YYYY" onclick="campos()"></p>
+        <p id="erro3">This field is required</p>
+      </div>
+    </div>
+    <div id="submit">
+      <hr size="2"> <!-- PARA CRIAR UMA LINHA -->
+      <div class="icone"><img src="assets/images/icon-arrow.svg" alt="iconeFlex" onclick="result()"> <!-- FAZENDO A IMAGEM VIRAR UM "BOTAO" -->      </div>
+    </div>
+    <div class="res">
+      <p><span id="resYear">- -</span> years</p>
+      <p><span id="resMonth">- -</span> months</p>
+      <p><span id="resDay">- -</span> days</p>
+    </div>
+    <div>
+      <p id="oi"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

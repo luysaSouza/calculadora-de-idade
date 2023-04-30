@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+:root{
+    --purple: hsl(259, 100%, 65%);
+    --light-red: hsl(0, 100%, 67%);
+
+    --white: hsl(0, 0%, 100%);
+    --off-white: hsl(0, 0%, 94%);
+    --light-grey: hsl(0, 0%, 86%);
+    --smokey-grey: hsl(0, 1%, 44%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--off-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#content{
+    margin: auto;
+    margin-top: 90px;
+    width: 660px;
+    height: 490px;
+    background-color: var(--white);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 150px;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: row;
+    /* margin: 30px; */
+}
+
+#pDay, #pMonth, #pYear{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: var(--smokey-grey);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    /* background-color: #ff0000; */
+}
+
+#txtDay, #txtMonth, #txtYear{
+    margin-left: 40px;
+    margin-bottom: 45px;
+    border-color: #dfdbdb;
+    border-style: double;
+    border-width: thin;
+    outline-color: var(--purple);
+    outline-width: thin;
+    padding: 20px;
+    height: 10px;
+    width: 90px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+#erro1, #erro2, #erro3{
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 8px;
+    display: none;
+    margin-left: 40px;
+    margin-top: -40px;  
+    margin-bottom: 30px; 
+}
+
+hr{
+    margin-left: 40px;
+    width: 510px;   
+    border-color: var(--off-white);
+}
+
+img{
+    background-color: var(--purple);
+    padding: 15px;
+    border-radius: 50px;
+    width: 40px;
+    position: relative;
+    margin-left: 550px;
+    bottom: 35px;
+    cursor: pointer;
+}
+
+img:hover{
+    background-color: black;
+}
+
+.res{
+    margin-left: 40px;
+    margin-top: -50px;
+    font-size: 65px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+span{
+    color: var(--purple);
+}
+
+
+
+
+
+
+
+
+
