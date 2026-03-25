@@ -28,10 +28,9 @@ Projeto desenvolvido para praticar lógica de programação e manipulação de d
 
 ## 📸 Preview
 
-<img width="824" height="615" alt="image" src="https://github.com/user-attachments/assets/acd67fec-f900-45b4-adf9-e15c191c24fe" />
-
-<img width="866" height="654" alt="image" src="https://github.com/user-attachments/assets/b7089100-17b3-4a2d-9b6d-51948fda981d" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/acd67fec-f900-45b4-adf9-e15c191c24fe" width="500"/>
+</p>
 
 ---
 
